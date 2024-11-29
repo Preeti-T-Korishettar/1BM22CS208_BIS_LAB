@@ -1,0 +1,14 @@
+Step1: Randomly initialize the population of grey wolves Xi  (i=1,2,…,n)
+Step2: Initialize the value of a=2, A and C  ( using eq.3)
+Step3: Calculate the fitness of each member of the population
+Xα=member with the best fitness value
+Xβ=second best member ( in terms of fitness value)
+Xδ=third best member (in terms of fitness value)
+Step4: FOR t = 1 to Max_number_of_iterations:
+Update the position of all the omega wolves by eq. 4, 5 and 6
+Update a, A, C (using eq. 3)
+a = 2(1-t/T)
+Calculate Fitness of all search agents
+Update Xα, Xβ, Xδ.
+            END FOR
+Step5: return Xα
